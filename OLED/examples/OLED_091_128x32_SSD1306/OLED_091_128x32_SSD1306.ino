@@ -9,7 +9,7 @@
 //SCL -- D5
 //RST -- D2
 
-OLED display(SDA, SCL);
+OLED display(D4, D5);
 
 void setup() {
   pinMode(D2, OUTPUT);
